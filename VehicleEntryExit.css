@@ -1,0 +1,89 @@
+.vehicle-entry-exit-container {
+    text-align: center;
+    margin: 20px;
+    color: darkgreen;
+    border-color: #4CAF50;
+  }
+  
+  .table-container {
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+    color: #4CAF50;
+    
+  }
+  
+  .vehicle-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(193, 19, 19, 0.1);
+    
+  }
+  
+  .vehicle-table th, .vehicle-table td {
+    border: 1px solid crimson;
+    padding: 12px 15px;
+    text-align: center;
+    
+  }
+  
+  .vehicle-table th {
+    background-color: crimson;
+    color: green;
+    font-weight: bold;
+    
+  }
+  
+  .vehicle-table tr:nth-child(even) {
+    background-color: #d11e1e;
+  }
+  
+  .vehicle-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .vehicle-table td {
+    font-size: 14px;
+    color: #dc1919;
+    
+  }
+  
+  .vehicle-table th, .vehicle-table td {
+    padding: 10px 15px;
+    color: black;
+  }
+  
+  .vehicle-table thead {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    color: black;
+  }
+  
+  .vehicle-table tr {
+    transition: background-color 0.3s ease;
+  }
+  .vehicle-table tbody tr:nth-child(even) {
+    background-color : rgb(161, 183, 161);
+  }
+
+  
+
+  .vehicle-table th:nth-child(1) { /* Vehicle ID */
+    width: 150px; 
+    color: black;
+  }
+  .vehicle-table th:nth-child(2) { /* Entry Time */
+    width: 200px; 
+    color: black;
+  }
+  
+  .vehicle-table th:nth-child(3) { /* Exit Time */
+    width: 200px; 
+    color: black;
+  }
+  
+  .vehicle-table th:nth-child(4) { /* Gate Number */
+    width: 120px; 
+    color: black;
+  }

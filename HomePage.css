@@ -1,0 +1,93 @@
+.homepage-container {
+  max-width: 800px; /* Example maximum width */
+  margin: 0 auto; /* Center align horizontally */
+  padding: 20px; /* Example padding */
+  border: 1px solid #ccc; /* Example border */
+  background-color: lightgrey;
+}
+  h1 {
+    color: brown;
+    font-size: 40px; 
+    
+}
+  
+  .button-container {
+    margin: 20px 0;
+  }
+  
+  .button-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #ccc;
+    border-radius: 5px;
+    background-color: rgb(46, 81, 116);
+    color: white;
+  }
+  
+  .button-container button:hover {
+    background-color:black ;
+  }
+  
+  .datetime-input-container {
+    margin: 20px 0;
+    color: rgb(46, 81, 116);
+    
+  }
+  
+  .datetime-input-container label {
+    margin: 0 10px;
+    font-weight: bold;
+    
+  }
+  
+  .datetime-input-container input {
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .datetime-input-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .datetime-input-container button:hover {
+    background-color: #218838;
+  }
+  
+  .table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .gate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .gate-table th, .gate-table td {
+    border: 1px solid blueviolet;
+    padding: 8px;
+  }
+  
+  .gate-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:#f2f2f2;
+    color: black;
+  }
+  
+  .gate-table td {
+    text-align: center;
+  }
+  
